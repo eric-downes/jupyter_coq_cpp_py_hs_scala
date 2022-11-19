@@ -11,27 +11,27 @@ Dockerized jupyter nb in which one can execute commands from as many as possible
 - [TypeScript](https://github.com/winnekes/itypescript)
 - [Agda](https://github.com/lclem/agda-kernel)
 
-I'll settle for the first 2-3 for now...
+I'll settle for the first 2-3 for now... I'm n ot great with docker so... fun times.
 
 ## Todo
 
 ### setup
-[.] Install `jupyter-lab`
-[.] Install `docker`
+- [.] Install `jupyter-lab`
+- [.] Install `docker`
 
 ### Landro stuff
-[.] check that Landro's docker runs from dockerhub
-[] .. built from git
-[] remove ijava etc -- still runs?
-[] commit here
+- [.] check that Landro's docker runs from dockerhub
+- [] .. built from git
+- [] remove ijava etc -- still runs?
+- [] commit here
 
 ### Haskell
-[] see if I can get the haskell kernel to work with jupyter nb
-[] try adding it to Landro's docker file -- still work?
+- [] see if I can get the haskell kernel to work with jupyter nb
+- [] try adding it to Landro's docker file -- still work?
 
 ### C++
-[] get cling working
-[] try adding to the docker file
+- [] get cling working
+- [] try adding to the docker file
 
-... and the same for Rust, TypeScript, and Agda
+... and the same for `Rust`, `TypeScript`, and `Agda`
 
