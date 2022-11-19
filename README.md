@@ -16,9 +16,10 @@ I'll settle for the first 2-3 for now... I'm n ot great with docker so... fun ti
 ## Todo
 
 ### setup
-- [x] Install `jupyter-lab`
-- [x] Install `docker`
+- [x] Install [jupyter-lab](https://jupyter.org/install)
+- [x] Install [docke](https://www.docker.com/)
 - [x] Install [jdk](https://adoptium.net/download/)
+- [x] Install [almond](https://almond.sh/docs/quick-start-install) (scala jupyter kernel)
 
 ### Landro stuff
 - [x] check that Landro's docker runs from dockerhub
