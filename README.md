@@ -1,40 +1,21 @@
 # jccphs 
 
-## Goal
+Dockerized jupyter nb in which one can execute commands from many
+languages; you choose the kernel for each cell.  Modified from [Nicola
+Landro's repo](https://gitlab.com/nicolalandro/jupyter-and-coq)
 
-Dockerized jupyter nb in which one can execute commands from as many as possible of the following languages:
+## Status
 
-- [Nicola Landro's repo:coq, python, scala](https://gitlab.com/nicolalandro/jupyter-and-coq)
-- [Haskell jupyter kernel](https://github.com/IHaskell/IHaskell)
-- [C++ jupyter kernel](https://github.com/jupyter-xeus/xeus-cling)
-- [Rust](https://github.com/google/evcxr/tree/main/evcxr_jupyter)
-- [TypeScript](https://github.com/winnekes/itypescript)
-- [Agda](https://github.com/lclem/agda-kernel)
+Currently we have these working together
+- [coq_jupyter](https://github.com/EugeneLoy/coq_jupyter)
+- [almond](https://almond.sh/docs/quick-start-install) (scala jupyter kernel)
 
-I'll settle for the first 2-3 for now... I'm n ot great with docker so... fun times.
+## Future
 
-## Todo
-
-### setup
-- [x] Install [jupyter-lab](https://jupyter.org/install)
-- [x] Install [docke](https://www.docker.com/)
-- [x] Install [jdk](https://adoptium.net/download/)
-- [x] Install [almond](https://almond.sh/docs/quick-start-install) (scala jupyter kernel)
-
-### Landro stuff
-- [x] check that Landro's docker runs from dockerhub
-- [ ] .. built from git
-- [ ] remove ijava etc -- still runs?
-- [ ] updatew scala to newer version than 2.11... ?
-- [ ] commit here
-
-### Haskell
-- [ ] see if I can get the haskell kernel to work with jupyter nb
-- [ ] try adding it to Landro's docker file -- still work?
-
-### C++
-- [ ] get cling working
-- [ ] try adding to the docker file
-
-... and the same for `Rust`, `TypeScript`, and `Agda`
+1. [ ] [IHaskell](https://github.com/IHaskell/IHaskell)
+1. [ ] [C++ jupyter kernel](https://github.com/jupyter-xeus/xeus-cling)
+1. [ ] [Rust](https://github.com/google/evcxr/tree/main/evcxr_jupyter)
+1. [ ] [TypeScript](https://github.com/winnekes/itypescript)
+1. [ ] [Agda](https://github.com/lclem/agda-kernel)
+1. Adapt to use `jupyter-lab` instead
 
