@@ -21,17 +21,17 @@ I'll settle for the first 2-3 for now... I'm n ot great with docker so... fun ti
 
 ### Landro stuff
 - [x] check that Landro's docker runs from dockerhub
-- [] .. built from git
-- [] remove ijava etc -- still runs?
-- [] commit here
+- [ ] .. built from git
+- [ ] remove ijava etc -- still runs?
+- [ ] commit here
 
 ### Haskell
-- [] see if I can get the haskell kernel to work with jupyter nb
-- [] try adding it to Landro's docker file -- still work?
+- [ ] see if I can get the haskell kernel to work with jupyter nb
+- [ ] try adding it to Landro's docker file -- still work?
 
 ### C++
-- [] get cling working
-- [] try adding to the docker file
+- [ ] get cling working
+- [ ] try adding to the docker file
 
 ... and the same for `Rust`, `TypeScript`, and `Agda`
 
