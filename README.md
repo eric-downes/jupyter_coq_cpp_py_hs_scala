@@ -18,6 +18,7 @@ I'll settle for the first 2-3 for now... I'm n ot great with docker so... fun ti
 ### setup
 - [x] Install `jupyter-lab`
 - [x] Install `docker`
+- [x] Install [jdk](https://adoptium.net/download/)
 
 ### Landro stuff
 - [x] check that Landro's docker runs from dockerhub
