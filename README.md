@@ -16,11 +16,11 @@ I'll settle for the first 2-3 for now... I'm n ot great with docker so... fun ti
 ## Todo
 
 ### setup
-- [.] Install `jupyter-lab`
-- [.] Install `docker`
+- [x] Install `jupyter-lab`
+- [x] Install `docker`
 
 ### Landro stuff
-- [.] check that Landro's docker runs from dockerhub
+- [x] check that Landro's docker runs from dockerhub
 - [] .. built from git
 - [] remove ijava etc -- still runs?
 - [] commit here
