@@ -23,6 +23,7 @@ I'll settle for the first 2-3 for now... I'm n ot great with docker so... fun ti
 - [x] check that Landro's docker runs from dockerhub
 - [ ] .. built from git
 - [ ] remove ijava etc -- still runs?
+- [ ] updatew scala to newer version than 2.11... ?
 - [ ] commit here
 
 ### Haskell
