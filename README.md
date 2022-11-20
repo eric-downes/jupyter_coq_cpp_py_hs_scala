@@ -1,4 +1,4 @@
-# jccphs 
+# jupyverse
 
 Dockerized jupyter nb in which one can execute commands from many
 languages; you choose the kernel for each cell.  Modified from [Nicola
