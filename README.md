@@ -10,6 +10,13 @@ Currently we have these working together
 - [coq_jupyter](https://github.com/EugeneLoy/coq_jupyter)
 - [almond](https://almond.sh/docs/quick-start-install) (scala jupyter kernel)
 
+These commands seem to work:
+```
+docker build -t jupverse:py-coq-sc .
+docker run -p 8888:8888 jupyverse:py-coq-sc
+```
+However if you visit `0.0.0.0:8888` in chrome.... nothing.  Same with `127.0.0.1:8888` :(
+
 ## Future
 
 1. [ ] [IHaskell](https://github.com/IHaskell/IHaskell)
