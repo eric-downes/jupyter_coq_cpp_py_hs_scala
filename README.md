@@ -4,6 +4,12 @@ Dockerized jupyter nb in which one can execute commands from many
 languages; you choose the kernel for each cell.  Modified from [Nicola
 Landro's repo](https://gitlab.com/nicolalandro/jupyter-and-coq)
 
+```
+docker pull ghcr.io/ihaskell/ihaskell-notebook:dev
+docker build -t jupyverse:py-sc-coq-hs .
+docker run -p 8888:8888 jupyverse:py-sc-coq-hs jupyter lab --ServerApp.token=''
+```
+
 ## Status
 
 Currently we have these working together
