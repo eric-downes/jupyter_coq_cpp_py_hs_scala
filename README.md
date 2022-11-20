@@ -6,7 +6,7 @@ Landro's repo](https://gitlab.com/nicolalandro/jupyter-and-coq)
 
 ## Status
 
-Currently we have these working together
+Currently we have these building together
 - [coq_jupyter](https://github.com/EugeneLoy/coq_jupyter)
 - [almond](https://almond.sh/docs/quick-start-install) (scala jupyter kernel)
 
